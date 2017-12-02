@@ -38,7 +38,6 @@ def _general_data_source_url(this_data_source: data_source):
 
 
 def get(source_name: str):
-    import os
     if source_name in _data_sources:
         sources = _data_sources[source_name]
         payload = sources["payload"]
