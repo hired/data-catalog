@@ -15,7 +15,8 @@ WITH places AS (
       GROUP BY u.id)
 SELECT
   u.id AS employer_id,
-  p.places,o.offers
+  p.places,
+  o.offers
 FROM (SELECT u.*
       FROM users u
         JOIN companies c ON u.company_id = c.id
