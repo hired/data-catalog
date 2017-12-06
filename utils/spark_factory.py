@@ -20,6 +20,7 @@ def spark_conf(master="local", application_name="DistributeThis"):
     spark = SparkSession.builder \
         .master(master) \
         .appName(application_name) \
+        .config("spark.driver.memory", "6g") \
         .config("spark.jars.packages",
                 "org.apache.hadoop:hadoop-aws:2.7.3,org.postgresql:postgresql:42.1.1") \
         .getOrCreate()
@@ -27,5 +28,3 @@ def spark_conf(master="local", application_name="DistributeThis"):
     spark._jsc.hadoopConfiguration().set("fs.s3n.awsSecretAccessKey",
                                          credentials.secret_key)
     return spark
-
-

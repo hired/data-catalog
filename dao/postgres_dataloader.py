@@ -16,9 +16,6 @@ def read(concept):
 def _read(query, url=None):
     if url is None:
         url = get("follower")
-    df = spark.read.jdbc(url=url, table=query, properties={'driver': 'org.postgresql.Driver'})
+    df = spark.read.jdbc(url=url, table=query,
+                         properties={'driver': 'org.postgresql.Driver'})
     return df
-
-
-sample_df = read("jobs")
-sample_df.show(10)
