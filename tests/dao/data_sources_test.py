@@ -1,5 +1,6 @@
-from dao.data_sources import get
 import unittest
+
+from catalog.dao.data_sources import get
 
 
 class DataSourceTest(unittest.TestCase):

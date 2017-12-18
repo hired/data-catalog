@@ -1,6 +1,6 @@
 from collections import namedtuple
 
-from dao.credentials_loader import load_credentials
+from catalog.dao.credentials_loader import load_credentials
 
 data_source = namedtuple("data_source",
                          ["host", "db_name", "port", "username", "password", "options"],

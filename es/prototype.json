@@ -1,0 +1,328 @@
+{
+  "resume": {
+    "original": "https://d1egfl9xsclxma.cloudfront.net/candidate_profiles/187968/resumes/1450253261/DevOps_%2820150801_public%29.pdf",
+    "file_name": "DevOps_(20150801_public).pdf",
+    "content_type": "application/pdf",
+    "size": 234977
+  },
+  "id": 217988,
+  "candidate_id": 217988,
+  "slug": "brian-plunkett",
+  "name": "Brian Plunkett, CISSP-ISSAP, RHCE",
+  "email": "bplunket_cville@hotmail.com",
+  "signup_email": "bplunket_cville@hotmail.com",
+  "coords": {
+    "lat": 38.9071923,
+    "lon": -77.0368707
+  },
+  "coords_array": [
+    -77.0368707,
+    38.9071923
+  ],
+  "us_dod_clearance_display_name": null,
+  "work_summary": "DevOps Engineer at Insight Global ",
+  "education_summary": "University of Phoenix, Business/Information Systems",
+  "created_at": "2015-01-20T03:12:34.247-08:00",
+  "submitted_at": "2017-11-22T15:38:48.484-08:00",
+  "rejected_at": null,
+  "deleted_at": null,
+  "approved_at": "2017-11-27T17:07:25.548-08:00",
+  "indexed_at": 1513016255,
+  "skills_list": "Red Hat Linux, Shell Scripting, DevOps, Information Security, Security, network security, C++, Configuration Management, Perl, C, Unix, MySQL, Tomcat, SVN, Git, Puppet, Continuous Integration (CI), Continuous Deployment, Python, AWS, Jenkins, Microsoft Office",
+  "top_skills": [
+    "Red Hat Linux",
+    "Shell Scripting",
+    "DevOps",
+    "Information Security",
+    "Security"
+  ],
+  "remote": "yes",
+  "preferred_contract_rate": 59,
+  "min_total_comp": null,
+  "numeric_years_of_experience": 15,
+  "candidate_hidden_company_ids": [
+    3371,
+    11977,
+    4592,
+    8011,
+    6375,
+    5371,
+    8647,
+    21292
+  ],
+  "hidden_by_employer_ids": [
+    2022774,
+    1555011,
+    2384576,
+    2476327,
+    2112650,
+    2485145,
+    2225603,
+    2065461,
+    302620,
+    1567064,
+    1104310,
+    2459664
+  ],
+  "favorited_by_company_ids": [],
+  "favorited_by_employer_ids": [],
+  "work_auths": {
+    "us_qualified": true,
+    "us_need_sponsorship": false
+  },
+  "recent_offers_count": 4,
+  "job_type_preference": "full_time_preferred",
+  "open_to_consulting": true,
+  "shortlistings_job_ids": [
+    41730
+  ],
+  "last_employment": {
+    "id": 5751053,
+    "user_id": 217988,
+    "company": "Insight Global ",
+    "position": "DevOps Engineer",
+    "started": "2016-11-01",
+    "ended": "2017-08-01",
+    "linkedin_uid": null,
+    "created_at": "2017-11-22T16:29:55.862-08:00",
+    "updated_at": "2017-11-22T16:29:55.862-08:00",
+    "normalized_company": "insightglobal",
+    "current": false,
+    "summary": "Wrote Groovy & PowerShell Jenkins jobs for vCloud Automation Center\r\nprovisioned Environment on Demand (EoD) deployments\r\n Performed   business   analysis   to   help   development   communities\r\ndetermine approaches to automate their application build processes\r\n Consulted   with   traditional   operations   teams   to   remediate   multiple\r\nseverity 1 security vulnerabilities\r\n Troubleshot Java applications to ensure consistent deployments with\r\nintegrity checks\r\n Fostered collaboration between team to build Infrastructure­as­a­Service\r\nefforts toward single interface DevOps deployment solutions\r\n",
+    "import_source": null,
+    "oauth_uid": null
+  },
+  "number_of_reports_range": {
+    "lte": 0,
+    "gte": 0
+  },
+  "approved": true,
+  "rejected": false,
+  "memberships": [
+    {
+      "id": 148745,
+      "candidate_id": 217988,
+      "status": "CONFIRMED",
+      "created_at": "2017-11-27T17:07:25.276-08:00",
+      "updated_at": "2017-12-04T07:25:23.706-08:00",
+      "responded_at": "2017-12-04T07:25:23.635-08:00",
+      "preferred": false,
+      "obfuscated_headline": null,
+      "start_at": "2017-12-04T00:00:00.000-08:00",
+      "close_at": "2017-12-18T00:00:00.000-08:00",
+      "uncurated": false,
+      "ml_model_id": null,
+      "ml_confidence_score": null,
+      "approval_type": "STRONG",
+      "vertical_id": null,
+      "region_id": 1,
+      "label": null,
+      "offers_count": 4,
+      "auto_reactivation": false,
+      "elite_promoted_by_id": null
+    }
+  ],
+  "buckets": [
+    {
+      "name": "Build/Release Engineer",
+      "experience": "2-4",
+      "bucket_id": 73,
+      "primary_role_id": 10,
+      "primary_role_name": "Developer Operations (DevOps)"
+    },
+    {
+      "name": "DevOps Engineer",
+      "experience": "15+",
+      "bucket_id": 6,
+      "primary_role_id": 10,
+      "primary_role_name": "Developer Operations (DevOps)"
+    },
+    {
+      "name": "Site Reliability Engineer (SRE)",
+      "experience": "4-6",
+      "bucket_id": 95,
+      "primary_role_id": 10,
+      "primary_role_name": "Developer Operations (DevOps)"
+    }
+  ],
+  "place_selections": [
+    {
+      "address": "Washington, DC, USA",
+      "place_id": 4,
+      "coordinates": {
+        "lat": 38.9071923,
+        "lon": -77.0368707
+      },
+      "country_code": "US",
+      "address_suggestion": "Washington, DC, USA",
+      "market_id": 9,
+      "market_name": "Washington D.C.",
+      "region_code": "us",
+      "launch_status": "hard launched",
+      "time_zone": "Eastern Time (US & Canada)"
+    },
+    {
+      "address": "Phoenix, AZ, USA",
+      "place_id": 193,
+      "coordinates": {
+        "lat": 33.4483771,
+        "lon": -112.0740373
+      },
+      "country_code": "US",
+      "address_suggestion": "Phoenix, AZ, USA",
+      "market_id": 11,
+      "market_name": "Other",
+      "region_code": "us",
+      "launch_status": null,
+      "time_zone": null
+    },
+    {
+      "address": "Albuquerque, NM, USA",
+      "place_id": 1456,
+      "coordinates": {
+        "lat": 35.0853336,
+        "lon": -106.6055534
+      },
+      "country_code": "US",
+      "address_suggestion": "Albuquerque, NM, USA",
+      "market_id": 11,
+      "market_name": "Other",
+      "region_code": "us",
+      "launch_status": null,
+      "time_zone": null
+    },
+    {
+      "address": "Baltimore, MD, USA",
+      "place_id": 119,
+      "coordinates": {
+        "lat": 39.2903848,
+        "lon": -76.6121893
+      },
+      "country_code": "US",
+      "address_suggestion": "Baltimore, MD, USA",
+      "market_id": 9,
+      "market_name": "Washington D.C.",
+      "region_code": "us",
+      "launch_status": "hard launched",
+      "time_zone": "Eastern Time (US & Canada)"
+    },
+    {
+      "address": "Seattle, WA, USA",
+      "place_id": 1,
+      "coordinates": {
+        "lat": 47.6062095,
+        "lon": -122.3320708
+      },
+      "country_code": "US",
+      "address_suggestion": "Seattle, WA, USA",
+      "market_id": 4,
+      "market_name": "Seattle",
+      "region_code": "us",
+      "launch_status": "hard launched",
+      "time_zone": "Pacific Time (US & Canada)"
+    },
+    {
+      "address": "New York, NY, USA",
+      "place_id": 7,
+      "coordinates": {
+        "lat": 40.7127837,
+        "lon": -74.0059413
+      },
+      "country_code": "US",
+      "address_suggestion": "New York, NY, USA",
+      "market_id": 2,
+      "market_name": "New York",
+      "region_code": "us",
+      "launch_status": "mature",
+      "time_zone": "Eastern Time (US & Canada)"
+    },
+    {
+      "address": "San Francisco, CA, USA",
+      "place_id": 80,
+      "coordinates": {
+        "lat": 37.7749295,
+        "lon": -122.4194155
+      },
+      "country_code": "US",
+      "address_suggestion": "San Francisco, CA, USA",
+      "market_id": 1,
+      "market_name": "SF Bay Area",
+      "region_code": "us",
+      "launch_status": "mature",
+      "time_zone": "Pacific Time (US & Canada)"
+    },
+    {
+      "address": "Boston, MA, USA",
+      "place_id": 56,
+      "coordinates": {
+        "lat": 42.3600825,
+        "lon": -71.0588801
+      },
+      "country_code": "US",
+      "address_suggestion": "Boston, MA, USA",
+      "market_id": 5,
+      "market_name": "Boston",
+      "region_code": "us",
+      "launch_status": "hard launched",
+      "time_zone": "Eastern Time (US & Canada)"
+    }
+  ],
+  "educations": [
+    {
+      "id": 323378,
+      "university": "University of Phoenix",
+      "degree": "Business/Information Systems",
+      "graduation_year": 2005,
+      "candidate_id": 217988,
+      "created_at": "2015-01-20T03:27:13.368-08:00",
+      "updated_at": "2015-12-16T00:19:39.154-08:00",
+      "linkedin_uid": null,
+      "study_field": "Computer Science",
+      "import_source": "resume",
+      "oauth_uid": null
+    },
+    {
+      "id": 330415,
+      "university": "Northern Virginia Community College-Alexandria",
+      "degree": "Computer Science",
+      "graduation_year": 2003,
+      "candidate_id": 217988,
+      "created_at": "2015-01-26T03:03:09.384-08:00",
+      "updated_at": "2015-12-16T00:19:39.149-08:00",
+      "linkedin_uid": null,
+      "study_field": null,
+      "import_source": null,
+      "oauth_uid": "42149076048"
+    },
+    {
+      "id": 330416,
+      "university": "George Mason University",
+      "degree": "Electrical & Computer Engineering",
+      "graduation_year": 1996,
+      "candidate_id": 217988,
+      "created_at": "2015-01-26T03:03:09.413-08:00",
+      "updated_at": "2015-01-26T03:03:09.413-08:00",
+      "linkedin_uid": null,
+      "study_field": null,
+      "import_source": null,
+      "oauth_uid": "5625209996"
+    }
+  ],
+  "employments": [
+    {
+      "id": 5751053,
+      "user_id": 217988,
+      "company": "Insight Global ",
+      "position": "DevOps Engineer",
+      "started": "2016-11-01",
+      "ended": "2017-08-01",
+      "linkedin_uid": null,
+      "created_at": "2017-11-22T16:29:55.862-08:00",
+      "updated_at": "2017-11-22T16:29:55.862-08:00",
+      "normalized_company": "insightglobal",
+      "current": false,
+      "summary": "Wrote Groovy & PowerShell Jenkins jobs for vCloud Automation Center\r\nprovisioned Environment on Demand (EoD) deployments\r\n Performed   business   analysis   to   help   development   communities\r\ndetermine approaches to automate their application build processes\r\n Consulted   with   traditional   operations   teams   to   remediate   multiple\r\nseverity 1 security vulnerabilities\r\n Troubleshot Java applications to ensure consistent deployments with\r\nintegrity checks\r\n Fostered collaboration between team to build Infrastructure­as­a­Service\r\nefforts toward single interface DevOps deployment solutions\r\n",
+      "import_source": null,
+      "oauth_uid": null
+    }
+    }

@@ -1,12 +1,17 @@
 from functools import lru_cache
 import os
+from io import BytesIO
 
 import yaml
 from lastpass import Vault, LastPassIncorrectGoogleAuthenticatorCodeError, \
     LastPassIncorrectYubikeyPasswordError
 
-LPASS_USERNAME = os.environ["lastpass_username"]
-LPASS_PASSWORD = os.environ["lastpass_password"]
+try:
+    LPASS_USERNAME = os.environ["lastpass_username"]
+    LPASS_PASSWORD = os.environ["lastpass_password"]
+except KeyError:
+    print("Lastpass environment is not set")
+
 
 @lru_cache(1)
 def load_lpass_vault(device_id="data_catalog"):
@@ -38,12 +43,27 @@ def get_credential_from_vault():
         return None
 
 
+@lru_cache(1)
+def get_credentials_from_s3():
+    import boto3
+    import botocore
+    client = boto3.client("s3")
+    try:
+        obj = client.get_object(Bucket='hired-etl', Key='data_credentials.yaml')
+        return BytesIO(obj['Body'].read())
+    except botocore.exceptions.ClientError as e:
+        if e.response['Error']['Code'] == "404":
+            print("The credential file does not exist in s3")
+        else:
+            raise
+
+
 def load_credentials(credential_type, name, credential_file=None):
     if credential_file:
         with _load_credentials_file(credential_file) as file:
             return yaml.load(file).get(credential_type, {}).get(name, None)
     else:
-        credential_from_vault = get_credential_from_vault()
+        credential_from_vault = get_credentials_from_s3()
         return yaml.load(credential_from_vault).get(credential_type, {}).get(name, None)
 
 

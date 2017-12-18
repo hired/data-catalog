@@ -1,6 +1,7 @@
-from utils.spark_factory import spark_conf
 import os
-from dao.data_sources import get
+
+from catalog.dao.data_sources import get
+from catalog.utils.spark_factory import spark_conf
 
 spark = spark_conf()
 
@@ -18,4 +19,5 @@ def _read(query, url=None):
         url = get("follower")
     df = spark.read.jdbc(url=url, table=query,
                          properties={'driver': 'org.postgresql.Driver'})
+
     return df

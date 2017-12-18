@@ -1,6 +1,7 @@
-from dao.credentials_loader import load_credentials
-import unittest
 import os
+import unittest
+
+from catalog.dao.credentials_loader import load_credentials
 
 
 def load_test_credentials_file():
