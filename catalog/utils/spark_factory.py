@@ -3,7 +3,6 @@ from functools import lru_cache
 from pyspark.sql import SparkSession
 import boto3
 
-
 @lru_cache(10)
 def _load_aws_credentials():
     session = boto3.Session()
