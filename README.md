@@ -10,7 +10,7 @@ A Python based Spark application. This can be run standalone or the egg file can
 to run in a hosted Spark Environment.
 
 
-## How to?
+## Run project
 
 After checking out, create a python virtual environment and run `pip3 install -r requirements.txt`
 
@@ -20,14 +20,9 @@ This reads the data from Postgres follower database by default. You can add addi
 normalizes the dataset and creates domain model including Candidates, Jobs and Employers and persists
 then in S3.
 
-### api
+### Api
 
 TODO: Databricks Api.
-
-
-### l10n
-The l10n folder contains localization strings that are used in the various
-json files throughout this repository.
 
 ## Problems?
 
