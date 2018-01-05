@@ -6,7 +6,6 @@ data_source = namedtuple("data_source",
                          ["host", "db_name", "port", "username", "password", "options"],
                          verbose=False)
 
-# ***REMOVED***:***REMOVED***
 _data_sources = {
     "local": {"payload": {
         "host": "localhost",
@@ -27,8 +26,8 @@ _data_sources = {
 }
 
 
-def _general_data_source_url(this_data_source: data_source):
-    jdbc_url = "***REMOVED***://{0}:{1}/{2}?user={3}&password={4}".format(
+def _general_data_source_url(this_data_source):
+    jdbc_url = "jdbc:postgresql://{0}:{1}/{2}?user={3}&password={4}".format(
         this_data_source.host, this_data_source.port, this_data_source.db_name,
         this_data_source.username, this_data_source.password)
     if this_data_source.options:
@@ -37,7 +36,7 @@ def _general_data_source_url(this_data_source: data_source):
     return jdbc_url
 
 
-def get(source_name: str):
+def get(source_name):
     if source_name in _data_sources:
         sources = _data_sources[source_name]
         payload = sources["payload"]

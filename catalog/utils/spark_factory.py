@@ -1,9 +1,7 @@
-from functools import lru_cache
-
-from pyspark.sql import SparkSession
 import boto3
+from pyspark.sql import SparkSession
 
-@lru_cache(10)
+
 def _load_aws_credentials():
     session = boto3.Session()
     credentials = session.get_credentials()
@@ -13,7 +11,6 @@ def _load_aws_credentials():
     return credentials
 
 
-@lru_cache(10)
 def spark_conf(master="local", application_name="DistributeThis"):
     credentials = _load_aws_credentials()
     spark = SparkSession.builder \

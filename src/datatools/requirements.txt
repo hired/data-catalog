@@ -1,0 +1,13 @@
+GitPython==2.0.6
+keyring==10.2
+mock==1.1.2
+mocker==1.1.1
+ndg-httpsclient==0.4.1
+pyasn1==0.1.9
+pycrypto==2.6.1
+pyOpenSSL==16.0.0
+pytest-cov==2.2.1
+pytest-mock==0.11.0
+pytest==3.0.5
+requests==2.10.0
+requirements-parser==0.1.0

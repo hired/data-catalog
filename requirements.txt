@@ -12,3 +12,4 @@ pyspark==2.2.0
 python-dateutil==2.6.1
 s3transfer==0.1.12
 six==1.11.0
+git+ssh://git@github.com/hired/data-tools.git

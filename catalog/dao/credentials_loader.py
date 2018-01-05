@@ -1,4 +1,3 @@
-from functools import lru_cache
 import os
 from io import BytesIO
 
@@ -13,7 +12,6 @@ except KeyError:
     print("Lastpass environment is not set")
 
 
-@lru_cache(1)
 def load_lpass_vault(device_id="data_catalog"):
     try:
         # First try without a multifactor password
@@ -30,7 +28,6 @@ def load_lpass_vault(device_id="data_catalog"):
         return Vault.open_remote(LPASS_USERNAME, LPASS_PASSWORD, multifactor_password, device_id)
 
 
-@lru_cache(1)
 def get_credential_from_vault():
     vault = load_lpass_vault()
     data_credentials = [acc for acc in vault.accounts if 'data-credentials' in str(acc.name)]
@@ -43,7 +40,6 @@ def get_credential_from_vault():
         return None
 
 
-@lru_cache(1)
 def get_credentials_from_s3():
     import boto3
     import botocore
@@ -67,6 +63,5 @@ def load_credentials(credential_type, name, credential_file=None):
         return yaml.load(credential_from_vault).get(credential_type, {}).get(name, None)
 
 
-@lru_cache(1)
 def _load_credentials_file(credential_file):
     return open(credential_file)
